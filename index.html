@@ -31,7 +31,8 @@
 
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" id="searchTxt" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" id="searchTxt" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -44,14 +45,16 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Add Note</h5>
+
+                <input type="text" required class="my-3 form-control" id="title" placeholder="Title">
                 <div class="form-floating">
-                    <textarea class="form-control my-2" id="addtxt" style="height: 80px"></textarea>
+                    <textarea required class="form-control my-2" id="addtxt" style="height: 80px"></textarea>
                 </div>
                 <a href="#" class="btn btn-primary" id="addbtn">Add Note</a>
             </div>
         </div>
 
-        <h1 class="my-2" id ="note">Your Notes</h1>
+        <h1 class="my-2" id="note">Your Notes</h1>
         <hr>
         <div id="notes" class="row container-fluid">
 
